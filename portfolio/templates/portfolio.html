@@ -1,0 +1,199 @@
+    {% load staticfiles %}
+    <!doctype html>
+    <html lang="en">
+    <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>My Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style>
+        .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }
+
+        @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About 신서유기</h4>
+            <p class="text-muted">tvN에서 볼 수 있는 예능프로그램으로 강호동, 이수근 외 3명의 연예인들로 구성되었다<br>아시아 각지를 돌며 다양한 체험을 하는 프로그램이며 연출은 나영석PD가 맡고있다.<br>자세한 내용은 시청을 통해 알 수 있다.</p> 
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Follow on Twitter</a></li>
+            <li><a href="#" class="text-white">Like on Facebook</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong>신서유기 시리즈</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    </div>
+    </header>
+
+    <main role="main">
+
+    <section class="jumbotron text-center">
+    <div class="container">
+        <h1 class="jumbotron-heading">tvN 신서유기 tvN</h1>
+        <p class="lead text-muted">아시아 각지를 돌아다니며 다양한 미션을 수행하는 예능프로그램<br>매주 일요일 밤 10:40 tvN채널에서 시청할 수 있다.<br>보기만해도 웃음이 빵빵터지는 신서유기, 바로 시청하세요</p>
+        <p>
+        <a href="#" class="btn btn-primary my-2">바로가기</a>
+        <a href="#" class="btn btn-secondary my-2">tvN홈페이지</a>
+        </p>
+    </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+    <div class="container">
+
+        <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+            <img src="{% static '1.jpg'%}" height = 400 alt="신서유기">
+            <div class="card-body">
+            <p class="card-text">출연진 <br>강호동 이수근 은지원 이승기</p>
+            <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+            <img src="{% static '2.png'%}" height = 400 alt="신서유기2">
+            <div class="card-body">
+            <p class="card-text">출연진<br>강호동 이수근 은지원 안재현</p>
+            <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                <img src="{% static '3.jpg'%}" height = 400 alt="신서유기3">
+                <div class="card-body">
+                <p class="card-text">출연진<br>강호동 이수근 은지원 안재현 조규현 송민호</p>
+                <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+                </div>
+                </div>
+                </div>
+            </div>
+        <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="{% static '4.jpg'%}" height = 400 alt="신서유기4">
+                    <div class="card-body">
+                    <p class="card-text">출연진<br>강호동 이수근 은지원 안재현 조규현 송민호</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="{% static '5.jpg'%}" height = 400 alt="신서유기5">
+                    <div class="card-body">
+                    <p class="card-text">출연진<br>강호동 이수근 은지원 안재현 송민호 피오</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="{% static '6.jpg'%}" height = 400 alt="신서유기6">
+                    <div class="card-body">
+                    <p class="card-text">출연진<br>강호동 이수근 은지원 안재현 송민호 피오</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                    </div>
+                </div>
+                </div>
+    </div>
+
+    </div>
+    </div>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+    </html>
+    </body>
+
+<nav class="navbar fixed-bottom navbar-dark bg-dark">
+    <a class="card--footer text-muted" href="#">likelion</a>
+    <p class="float-right">
+    <a class="btn-dark" href="#">Back to top</a>
+</nav>
